@@ -71,7 +71,7 @@ def ConverFromSQLITEFile(db_schema, db_file, table):
             '--mysql-user',
             'root',
             '--mysql-password',
-            'st!xei@', 
+            '', 
             '--mysql-truncate-tables']
 
     try:
